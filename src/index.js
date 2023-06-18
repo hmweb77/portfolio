@@ -4,6 +4,7 @@ import "./index.css";
 import "./pages/home/home.css"
 import "./pages/about/about.css"
 import "./pages/contact/contact.css"
+import "./pages/project/projects.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 

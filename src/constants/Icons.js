@@ -25,41 +25,41 @@ export const icons = [
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
   {
+
     id: 5,
+    name: "Redux",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+  },
+  {
+    id: 6,
     name: "NodeJS",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   },
   {
-    id: 6,
+    id: 7,
     name: "ExpressJS",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
   },
   {
-    id: 7,
+    id: 8,
     name: "Handlebars",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg",
   },
   {
-    id: 8,
+    id: 9,
     name: "MongoDB",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   },
   {
-    id: 9,
+    id: 10,
     name: "Firebase",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
   },
   {
-    id: 10,
+    id: 11,
     name: "Google cloud",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
   },
-  {
-    id: 11,
-    name: "SASS",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-  },
-
   {
     id: 12,
     name: "MaterialUI",

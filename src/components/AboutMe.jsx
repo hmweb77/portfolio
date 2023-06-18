@@ -1,7 +1,9 @@
 import React from 'react'
 
+
+
 import { useState, useEffect } from "react";
-import { Grid } from "@mui/material";
+import { Grid,Box } from "@mui/material";
 import aboutMeImg from "../assets/logo-updated.png";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
@@ -25,9 +27,9 @@ export default function AboutMe({ name, email, location, availability,brand }) {
   };
 
   return (
-     <Grid container >
-    <div className="aboutContainer">
-        <Grid item xs={12} md={12}>
+   
+     <Grid container spacing={1} >
+        <Grid item xs={12} md={6} >
       <motion.div
         className="personalImage "
         ref={ref}
@@ -38,7 +40,7 @@ export default function AboutMe({ name, email, location, availability,brand }) {
         <img src={aboutMeImg} alt={name} />
       </motion.div>
         </Grid>
-        <Grid item xs={12} md={12} >
+        <Grid item xs={12} md={6}  >
       <motion.div
         className="personalInfo "
         ref={ref}
@@ -84,10 +86,8 @@ export default function AboutMe({ name, email, location, availability,brand }) {
           </div>
         </div>
       </motion.div>
-      
-
     </Grid>
-  </div>
   </Grid>
+
   )
 }
