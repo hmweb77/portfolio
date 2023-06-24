@@ -3,7 +3,7 @@ import React from 'react'
 
 
 import { useState, useEffect } from "react";
-import { Grid,Box } from "@mui/material";
+import { Grid } from "@mui/material";
 import aboutMeImg from "../assets/logo-updated.png";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";

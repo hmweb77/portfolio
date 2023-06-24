@@ -2,12 +2,13 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
-import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
 import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
+
 
 const initialValues = {
   Name: "",
@@ -33,6 +34,7 @@ const Form = () => {
     });
   };
   const sendEmail = (e) => {
+  
     e.preventDefault();
 
     emailjs
@@ -40,11 +42,12 @@ const Form = () => {
         process.env.REACT_APP_YOUR_SERVICE_ID,
         process.env.REACT_APP_YOUR_TEMPLATE_ID,
         form.current,
-        process.env.REACT_APP_YOUR_PUBLIC_KEY
+        process.env.REACT_APP_YOUR_PUBLIC_KEY,
       )
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("Your email were send succesfully, we will reach you as soon as possible. Thank you");
         },
         (error) => {
           console.log(error.text);
@@ -124,9 +127,9 @@ const Form = () => {
     },
   };
 
-  const CssButton = {
-    // stule button
-  }
+//   const CssButton = {
+//     // stule button
+//   };
 
   return (
     <motion.div
@@ -139,71 +142,67 @@ const Form = () => {
       <h4 className="contentTitle">Message Me</h4>
       <Container component="main" maxWidth="md">
         <CssBaseline />
-        <Grid container spacing={2}>
-          <Grid item xs={12}>
-            <TextField
-              sx={CssTextField}
-              variant="standard"
-              required
-              fullWidth
-              label="Name"
-              name="Name"
-              id="Name"
-              onChange={handleInputChange}
-              value={values.Name}
-            />
+        <form ref={form} onSubmit={sendEmail}>
+          <Grid container spacing={2}>
+            <Grid item xs={12}>
+              <TextField
+                sx={CssTextField}
+                variant="standard"
+                required
+                fullWidth
+                label="Name"
+                name="Name"
+                id="Name"
+                onChange={handleInputChange}
+                value={values.Name}
+              />
+            </Grid>
+            <Grid item xs={12}>
+              <TextField
+                sx={CssTextField}
+                variant="standard"
+                required
+                fullWidth
+                id="Email"
+                label="Email"
+                name="Email"
+                onChange={handleInputChange}
+                value={values.Email}
+              />
+            </Grid>
+            <Grid item xs={12}>
+              <TextField
+                sx={CssTextField}
+                required
+                fullWidth
+                variant="standard"
+                id="Subject"
+                label="Subject"
+                name="Subject"
+                onChange={handleInputChange}
+                value={values.Subject}
+              />
+            </Grid>
+            <Grid item xs={12}>
+              <TextField
+                // sx={{ input: { color: "white" } }}
+                sx={CssTextField}
+                required
+                fullWidth
+                variant="standard"
+                id="Message"
+                name="Message"
+                label="Message"
+                onChange={handleInputChange}
+                value={values.Message}
+              />
+            </Grid>
           </Grid>
-          <Grid item xs={12}>
-            <TextField
-              sx={CssTextField}
-              variant="standard"
-              required
-              fullWidth
-              id="Email"
-              label="Email"
-              name="Email"
-              onChange={handleInputChange}
-              value={values.Email}
-            />
-          </Grid>
-          <Grid item xs={12}>
-            <TextField
-              sx={CssTextField}
-              required
-              fullWidth
-              variant="standard"
-              id="Subject"
-              label="Subject"
-              name="Subject"
-              onChange={handleInputChange}
-              value={values.Subject}
-            />
-          </Grid>
-          <Grid item xs={12}>
-            <TextField
-              // sx={{ input: { color: "white" } }}
-              sx={CssTextField}
-              required
-              fullWidth
-              variant="standard"
-              id="Message"
-              name="Message"
-              label="Message"
-              onChange={handleInputChange}
-              value={values.Message}
-            />
-          </Grid>
-        </Grid>
-        <Button
-          className="btn "
-          type="submit"
-          fullWidth
-          variant="contained"
-          sx={{ mt: 3, mb: 2 }}
-        >
-          Send
-          {/* {success ? "Message Sent" : "Send Message"} */}
-        </Button>
+          <button className="btn sendButton " type="submit">
+            Send
+            {/* {success ? "Message Sent" : "Send Message"} */}
+          </button>
+        </form>
       </Container>
     </motion.div>
   );

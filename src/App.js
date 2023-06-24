@@ -1,6 +1,8 @@
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
 import About from "./pages/about/About";
@@ -29,6 +31,7 @@ function App() {
   };
   return (
     <Fragment>
+     <ToastContainer />
       <Header />
       <Routes>
         <Route
