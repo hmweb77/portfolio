@@ -3,11 +3,16 @@ import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+
 
 const Home = ({ name }) => {
   const styles = {
     landing: {
-      height: "calc(100% - 93px)",
+      height: "50%",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
@@ -26,16 +31,13 @@ const Home = ({ name }) => {
       flexDirection: "column",
       letterSpacing: "1px",
       textAlign: "center",
-      zIndex: "1",
       color: "#fff",
-      textShadow: "1px 1px 3px #000",
     },
 
     name: {
-      color: "#fff",
-      fontWeight: "700",
-      marginTop: "-100px",
-      paddingBottom: "28px",
+      padding: "30px 40px 70px",
+      display: "flex",
+      alignItems: "center",
     },
   };
 
@@ -44,20 +46,23 @@ const Home = ({ name }) => {
       {/* <Draw />  */}
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
-          {name}
+        <FontAwesomeIcon icon={faChevronLeft} style={{paddingRight: "25",color:"#f5f5f5ab"}}  />
+        Full Stack Developer 
+        <FontAwesomeIcon icon={faChevronRight} style={{paddingLeft: "25",color:"#7b0606e2"}} />
+
         </h1>
         <div className="description">
           <Typewriter
             className="description"
             onInit={(typewriter) => {
               typewriter
-                .typeString("I'm a Developer")
+                .typeString("Building solutions")
                 .pauseFor(1500)
                 .deleteChars(9)
-                .typeString("Designer")
+                .typeString("future")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("The next generation of web technology")
+                .typeString("The next generation of web technologies")
                 .start();
             }}
           />

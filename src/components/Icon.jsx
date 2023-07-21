@@ -8,6 +8,7 @@ const Icon = ({ name, src }) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        marginRight:"10px",
         mb: 3,
       }}
     >

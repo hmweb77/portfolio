@@ -9,6 +9,7 @@
   --grey: #950101;;
   --spacing: 50px;
   --sm-spacing: 30px;
+  --speed: 15s; /* Change the speed value here */;
 }
 
 /* --- ANIMATIONS --- */
@@ -216,3 +217,8 @@ header {
     background-color: transparent;
   }
 }
+
+
+
+
+
