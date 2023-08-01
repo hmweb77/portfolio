@@ -120,7 +120,7 @@ const Form = () => {
       borderBottomColor: "white",
     },
     "& .MuiInputLabel-root": {
-      color: "#950101",
+      color: "#e70606",
     },
     "& .MuiInputBase-input": {
       color: "white", // Add the desired input color here

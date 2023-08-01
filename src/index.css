@@ -3,10 +3,10 @@
 /* --- VARIABLES --- */
 :root {
   --bg-color: #3e3e3e;
-  --hl-color: #950101;
+  --hl-color: #ff0303;
   --text-color: #f3f3f3;
   --secondary-text-color: #9f9f9f;
-  --grey: #950101;;
+  --grey: #ff0303;;
   --spacing: 50px;
   --sm-spacing: 30px;
   --speed: 15s; /* Change the speed value here */;

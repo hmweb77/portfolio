@@ -70,11 +70,11 @@ export const icons = [
     name: "Bootstrap",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
   },
-  {
-    id: 14,
-    name: "Canva",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg",
-  },
+  // {
+  //   id: 14,
+  //   name: "Canva",
+  //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg",
+  // },
   {
     id: 15,
     name: "Figma",

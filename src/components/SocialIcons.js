@@ -20,6 +20,7 @@ const SocialIcons = () => {
         className="icon"
         style={styles.icon}
         href="https://github.com/hmweb77"
+        target="_blank" rel="noreferrer"
       >
         <GitHubIcon />
       </a>
@@ -27,6 +28,7 @@ const SocialIcons = () => {
         className="icon"
         style={styles.icon}
         href="https://www.linkedin.com/in/oussamahamdani/"
+        target="_blank" rel="noreferrer"
       >
        <LinkedInIcon />
       </a>
@@ -34,6 +36,7 @@ const SocialIcons = () => {
         className="icon"
         style={styles.icon}
         href="mailto:hmweb77@gmail.com"
+        target="_blank" rel="noreferrer"
       >
         <EmailIcon />
       </a>
@@ -41,6 +44,7 @@ const SocialIcons = () => {
         className="icon"
         style={styles.icon}
         href="https://wa.me/212660059899"
+        target="_blank" rel="noreferrer"
       >
        <WhatsAppIcon />
       </a>

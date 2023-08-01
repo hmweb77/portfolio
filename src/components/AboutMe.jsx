@@ -44,7 +44,7 @@ export default function AboutMe({
           <div className="contentContainer">
             <h4>Nice to meet you</h4>
             <h5>
-            I'm Oussama, a Full-stack developer with expertise in MERN (MongoDB, Express.js, React, Node.js) and TNT (TypeScript, Next.js, Tailwind CSS) technologies. My journey into the world of software development began with a background in mechanical engineering, but my passion for coding and technology led me to make the switch and embrace the world of programming.
+            I'm Oussama, a Full-stack developer with a passion for crafting innovative solutions using the MERN technology (MongoDB, ExpressJs, React, NodeJS).With a background in mechanical engineering, my journey into the world of software development began with a transformative six months bootcamp at Ironhack, my passion for coding and technology led me to make the switch and embrace the world of programming.
             </h5>
             <div className="contentDescription">
               <p>{brand}</p>

@@ -4,6 +4,7 @@ import Icon from "../components/Icon";
 import { icons } from "../constants/Icons.js";
 import { motion } from 'framer-motion';
 
+ 
 
 function Skills() {
   const swipeAnimation = {
@@ -29,12 +30,18 @@ function Skills() {
             transform: "translate(-100%)",
           },
         },
+        gap: "20px" /* Adjust the space between icons as needed */,
       }}
     >
       {icons.map((icon) => {
         return <Icon key={icon.id} name={icon.name} src={icon.src} />;
       })}
     </Box>
+  );
+}
+
+export default Skills;
+
   //   <motion.div
   //   style={{
   //     display: 'flex',
@@ -53,8 +60,3 @@ function Skills() {
   //     </motion.div>
   //   ))}
   // </motion.div>
-
-  );
-}
-
-export default Skills;
