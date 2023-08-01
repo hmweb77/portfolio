@@ -28,3 +28,14 @@ export default function Projects() {
   </section>
   )
 }
+
+ // {
+  //   "title": "E-Commerce Website",
+  //   "description": "A fully responsive e-commerce website, built with React, Redux Toolkit & React Router.",
+  //   "image": "src",
+  //   "tags": ["React", "TypeScript", "Redux Toolkit", "MUI"],
+
+  //   "deployed": "https://norrinradd8.github.io/bike_buddy/",
+  //   "bgcolor": "#29cbe0",
+  //   "id": "1"
+  // }
