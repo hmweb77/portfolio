@@ -5,7 +5,6 @@
     "image": "src",
     "tags": [
       "Firebase",
-      "JavaScript",
       "React",
       "ExpressJS",
       "NodeJS",
@@ -15,6 +14,20 @@
     "deployed": "https://financebdarija.co",
     "bgcolor": "#3e67ff",
     "id": "0"
+  },
+  {
+    "title": "Tiktaklink",
+    "description": "This landing page made for a non profit organization",
+    "image": "src",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+
+    "deployed": "https://tiktalink.netlify.app/",
+    "bgcolor": "#9f3eff",
+    "id": "1"
   }
  
  

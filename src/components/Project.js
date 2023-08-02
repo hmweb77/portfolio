@@ -70,9 +70,11 @@ const Project = ({ tags, title,color,deployed, id, description }) => {
         <img src={closeModal} className="closeMenu closeModal" onClick={handleCloseModal} alt="Close"></img>
         <h3 className="modalTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
-        <button className="btn" onClick={() => (window.location.href = deployed)}>
+        <a href={deployed} target="_blank" rel="noopener noreferrer" className="centered-link">
+        <button className="btn">
           Live Link
         </button>
+        </a>
       </Modal>
     </motion.div>
   );

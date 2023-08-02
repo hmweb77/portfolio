@@ -4,59 +4,36 @@ import Icon from "../components/Icon";
 import { icons } from "../constants/Icons.js";
 import { motion } from 'framer-motion';
 
- 
+ //temporary solution for the animation of icons still need to be adjusted
 
 function Skills() {
-  const swipeAnimation = {
-    "0%": {
-      transform: "translate(100%)",
-    },
-    "100%": {
-      transform: "translate(-100%)",
-    },
-  };
+
   return (
     <Box
       sx={{
-        display: "flex",
-        flexDirection: "row",
+         display: "flex",
+         flexDirection: "row",
         alignItems: "center",
         animation: "swipe var(--speed) linear infinite ",
         "@keyframes swipe": {
           "0%": {
-            transform: "translate(100%)",
+            transform: "translate(50%)",
           },
           "100%": {
             transform: "translate(-100%)",
           },
         },
-        gap: "20px" /* Adjust the space between icons as needed */,
+       gap: "20px" /* Adjust the space between icons as needed */,
+       
       }}
-    >
-      {icons.map((icon) => {
-        return <Icon key={icon.id} name={icon.name} src={icon.src} />;
-      })}
+    >       
+        {icons.map((icon) => (
+          <Icon key={icon.id} name={icon.name} src={icon.src} />
+        ))}
     </Box>
   );
 }
 
 export default Skills;
 
-  //   <motion.div
-  //   style={{
-  //     display: 'flex',
-  //     flexDirection: 'row',
-  //     alignItems: 'center',
-  //   }}
-  // >
-  //   {icons.map((icon) => (
-  //     <motion.div
-  //       key={icon.id}
-  //       style={{ marginRight: '10px' }}
-  //       animate={{ x: ['-100%', '100%'] }}
-  //       transition={{ duration: 2, ease: 'linear', repeat: Infinity }}
-  //     >
-  //       <Icon name={icon.name} src={icon.src} />
-  //     </motion.div>
-  //   ))}
-  // </motion.div>
+ 
