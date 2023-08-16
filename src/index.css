@@ -6,11 +6,37 @@
   --hl-color: #ff0303;
   --text-color: #f3f3f3;
   --secondary-text-color: #9f9f9f;
-  --grey: #ff0303;;
+  --red: #ff0303;
+
+   /* --bg-color-light: #3e3e3e;
+  --hl-color-light: #7a0404;
+  --text-color-light: #000000;
+  --secondary-text-color-light: #9f9f9f;
+  --red-light: #7a0404;  */
+
   --spacing: 50px;
   --sm-spacing: 30px;
-  --speed: 60s; /* Change the speed value here */;
+  --speed: 60s; /* Change the speed value here */
 }
+
+/* Light Mode */
+/* #light {
+  --bg-color: var(--bg-color-light);
+  --hl-color: var(--hl-color-light);
+  --text-color: var(--text-color-light);
+  --secondary-text-color: var(--secondary-text-color-light);
+  --red: var(--red-light);
+}  */
+
+/* Dark Mode */
+/* #dark {
+ 
+  --bg-color: var(--bg-color-dark);
+  --hl-color: var(--hl-color-dark);
+  --secondary-text-color: var(--secondary-text-color-dark);
+  --red: var(--red-dark);
+  --text-color: var(--text-color-dark);
+} */
 
 /* --- ANIMATIONS --- */
 
@@ -58,7 +84,7 @@ body {
 }
 
 .pageDescription {
-  color: var(--grey);
+  color: var(--red);
   font-size: 14px;
 }
 
@@ -127,6 +153,9 @@ header {
 
 .links a:hover {
   color: white;
+}
+#light .links a:hover {
+  color: #700000;
 }
 
 .links.open {
@@ -223,8 +252,3 @@ header {
     background-color: transparent;
   }
 }
-
-
-
-
-

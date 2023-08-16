@@ -8,7 +8,7 @@
   }
   
   .aboutContainer {
-    border-bottom: 1px solid var(--grey);
+    border-bottom: 1px solid var(--red);
   }
   
   .personalImage {
@@ -20,7 +20,7 @@
   .personalImage img {
     height: 150px;
 
-    border: 1px solid var(--grey);
+    border: 1px solid var(--red);
   }
   
   .contentContainer {
@@ -45,7 +45,7 @@
   }
   
   .infoContainer {
-    border-top: 1px solid var(--grey);
+    border-top: 1px solid var(--red);
     margin-top: var(--sm-spacing);
     padding-top: var(--sm-spacing);
   }
@@ -99,13 +99,52 @@
     }
   
     .about .socialIcons::before {
-      background-color: var(--grey);
+      background-color: var(--red);
       content: "";
       height: 2px;
       width: var(--sm-spacing);
       display: inline-block;
       margin-bottom: 5px;
       margin-right: 10px;
+    }
+  }
+  /* .ironhack-link{
+    background: -webkit-linear-gradient(rgb(240, 80, 181), rgb(124, 4, 4));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+  .ironhack-link{
+  
+    text-decoration: none;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: 2s ease infinite reverse glow;
+  }
+  .ironhack-link:before {
+    position: absolute;
+    mix-blend-mode: difference;
+  }
+  .ironhack-link:after {
+    content: "";
+    background: linear-gradient(45deg, #251cca 30%, #dc2430 70%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0;
+    }
+    75% {
+      text-shadow: 0 0 16px;
+      filter: brightness(400%);
     }
   }
   

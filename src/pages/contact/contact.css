@@ -41,7 +41,7 @@
   }
   
   .mediaWrap {
-    border-left: 2px solid var(--grey);
+    border-left: 2px solid var(--red);
     padding-left: var(--sm-spacing);
     padding-top: 12px;
     padding-bottom: 12px;
@@ -58,10 +58,10 @@
     border: none;
     background-color: #575757;
     margin-bottom: 20px;
-    border-bottom: 1px solid var(--grey);
+    border-bottom: 1px solid var(--red);
     border-radius: 50px;
     outline: transparent;
-    color: var(--grey);
+    color: var(--red);
   }
   
   .formControl:focus {
@@ -120,7 +120,7 @@
   
     .contact .socialIcons::before,
     .contact .socialIcons::after {
-      background-color: var(--grey);
+      background-color: var(--red);
       content: "";
       height: 2px;
       width: var(--spacing);

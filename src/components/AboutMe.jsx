@@ -23,7 +23,7 @@ export default function AboutMe({
   return (
     <Grid container spacing={1}>
       <Grid item xs={12} md={6}>
-        <motion.div
+        {/* <motion.div
           className="personalImage "
           ref={ref}
           initial={{ x: "-10vw", opacity: 0 }}
@@ -31,7 +31,7 @@ export default function AboutMe({
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <img src={aboutMeImg} alt={name} />
-        </motion.div>
+        </motion.div> */}
       </Grid>
       <Grid item xs={12} md={6}>
         <motion.div
@@ -44,7 +44,21 @@ export default function AboutMe({
           <div className="contentContainer">
             <h4>Nice to meet you</h4>
             <h5>
-            I'm Oussama, a Full-stack developer with a passion for crafting innovative solutions using the MERN technology (MongoDB, ExpressJs, React, NodeJS).With a background in mechanical engineering, my journey into the world of software development began with a transformative six months bootcamp at Ironhack, my passion for coding and technology led me to make the switch and embrace the world of programming.
+              I'm Oussama, a Full-stack developer with a passion for crafting
+              innovative solutions using the MERN technology (MongoDB,
+              ExpressJs, React, NodeJS).With a background in mechanical
+              engineering, my journey into the world of software development
+              began with a transformative six months bootcamp at{" "}
+              <a
+                href="https://www.ironhack.com"
+                target="_blank"
+                rel="noreferrer"
+                className="ironhack-link"
+              >
+                Ironhack
+              </a>
+              , my passion for coding and technology led me to make the switch
+              and embrace the world of programming.
             </h5>
             <div className="contentDescription">
               <p>{brand}</p>
