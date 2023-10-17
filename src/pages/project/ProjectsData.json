@@ -28,6 +28,20 @@
     "deployed": "https://tiktalink.netlify.app/",
     "bgcolor": "#9f3eff",
     "id": "1"
+  },
+  {
+    "title": "Nextdigits",
+    "description": "This landing page made for a digital agency NextDigits",
+    "image": "src",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+
+    "deployed": "https://nextdigits.us",
+    "bgcolor": "#0d1117",
+    "id": "1"
   }
  
  

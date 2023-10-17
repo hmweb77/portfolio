@@ -43,7 +43,7 @@ const SocialIcons = () => {
       <a
         className="icon"
         style={styles.icon}
-        href="https://wa.me/212660059899"
+        href="https://wa.me/351929345644"
         target="_blank" rel="noreferrer"
       >
        <WhatsAppIcon />
