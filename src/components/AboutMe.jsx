@@ -23,7 +23,7 @@ export default function AboutMe({
   return (
     <Grid container spacing={1}>
       <Grid item xs={12} md={6}>
-        {/* <motion.div
+        <motion.div
           className="personalImage "
           ref={ref}
           initial={{ x: "-10vw", opacity: 0 }}
@@ -31,7 +31,7 @@ export default function AboutMe({
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <img src={aboutMeImg} alt={name} />
-        </motion.div> */}
+        </motion.div>
       </Grid>
       <Grid item xs={12} md={6}>
         <motion.div
