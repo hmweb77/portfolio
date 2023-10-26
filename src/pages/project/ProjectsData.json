@@ -3,47 +3,37 @@
     "title": "Financebdarija",
     "description": "This web application made for a financial advisor to host his podcasts",
     "image": "src",
-    "tags": [
-      "Firebase",
-      "React",
-      "ExpressJS",
-      "NodeJS",
-      "MongoDB"
-    ],
-
+    "tags": ["Firebase", "React", "ExpressJS", "NodeJS", "MongoDB"],
     "deployed": "https://financebdarija.co",
     "bgcolor": "#3e67ff",
     "id": "0"
+  },
+
+  {
+    "title": "Nextdigits",
+    "description": "This landing page made for a digital agency NextDigits",
+    "image": "src",
+    "tags": ["Typescript", "React", "Vitejs"],
+    "deployed": "https://nextdigits.us",
+    "bgcolor": "#0E2041",
+    "id": "2"
+  },
+  {
+    "title": "Token-Titans",
+    "description": "This is a web3 app made for a hackathon competition EBC9 i was responsible for the frontend part",
+    "image": "src",
+    "tags": ["Typescript", "Nextjs", "Tailwindcss"],
+    "deployed": "https://token-titans.vercel.app/",
+    "bgcolor": "#67AFB7",
+    "id": "3"
   },
   {
     "title": "Tiktaklink",
     "description": "This landing page made for a non profit organization",
     "image": "src",
-    "tags": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ],
-
+    "tags": ["HTML", "CSS", "Javascript"],
     "deployed": "https://tiktalink.netlify.app/",
     "bgcolor": "#9f3eff",
     "id": "1"
-  },
-  {
-    "title": "Nextdigits",
-    "description": "This landing page made for a digital agency NextDigits",
-    "image": "src",
-    "tags": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ],
-
-    "deployed": "https://nextdigits.us",
-    "bgcolor": "#0d1117",
-    "id": "1"
   }
- 
- 
 ]
-
