@@ -35,5 +35,14 @@
     "deployed": "https://tiktalink.netlify.app/",
     "bgcolor": "#9f3eff",
     "id": "1"
+  },
+  {
+    "title": "RickAndMorty",
+    "description": "This is a web game crafted exclusively for laptop enthusiasts",
+    "image": "src",
+    "tags": ["HTML", "CSS", "Javascript"],
+    "deployed": "rick-and-morty-mlvvxnplo-hmweb77.vercel.app",
+    "bgcolor": "#499448",
+    "id": "5"
   }
 ]
