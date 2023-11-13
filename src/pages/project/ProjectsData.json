@@ -41,7 +41,7 @@
     "description": "This is a web game crafted exclusively for laptop enthusiasts",
     "image": "src",
     "tags": ["HTML", "CSS", "Javascript"],
-    "deployed": "rick-and-morty-mlvvxnplo-hmweb77.vercel.app",
+    "deployed": "https://rick-and-morty-five-rho.vercel.app/",
     "bgcolor": "#499448",
     "id": "5"
   }
