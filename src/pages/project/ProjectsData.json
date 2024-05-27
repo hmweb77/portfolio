@@ -4,7 +4,7 @@
     "description": "This web application made for a financial advisor to host his podcasts",
     "image": "src",
     "tags": ["Firebase", "React", "ExpressJS", "NodeJS", "MongoDB"],
-    "deployed": "https://financebdarija.co",
+    "deployed": "https://financebdarija.netlify.app/",
     "bgcolor": "#3e67ff",
     "id": "1"
   },
@@ -46,13 +46,31 @@
     "id": "5"
   },
   {
+    "title": "Smile coach",
+    "description": "Assisting a coach to improve her landing page for newsletter",
+    "image": "src",
+    "tags": ["HTML", "CSS", "Nextjs"],
+    "deployed": "https://coach-smile.vercel.app/",
+    "bgcolor": "#FFCC33",
+    "id": "6"
+  },
+  {
+    "title": "https://aloe-three.vercel.app/",
+    "description": "Assisting a shop owner to improve her landing page for newsletter",
+    "image": "src",
+    "tags": ["HTML", "CSS", "Javascript"],
+    "deployed": "https://aloe-three.vercel.app/",
+    "bgcolor": "#889B73",
+    "id": "7"
+  },
+  {
     "title": "Tiktaklink",
     "description": "This landing page made for a non profit organization",
     "image": "src",
     "tags": ["HTML", "CSS", "Javascript"],
     "deployed": "https://tiktalink.netlify.app/",
     "bgcolor": "#9f3eff",
-    "id": "6"
+    "id": "8"
   },
   {
     "title": "RickAndMorty",
@@ -61,6 +79,6 @@
     "tags": ["HTML", "CSS", "Javascript"],
     "deployed": "https://rick-and-morty-five-rho.vercel.app/",
     "bgcolor": "#499448",
-    "id": "7"
+    "id": "9"
   }
 ]
