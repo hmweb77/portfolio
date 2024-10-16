@@ -42,9 +42,10 @@ const Project = ({ tags, title,color,deployed, id, description }) => {
           <h3 className="projectTitle">{title}</h3>
           <span className="viewWork">View Work &#8594;</span>
         </div>
-        {/* <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
-          <img src={image} alt="Laptop displaying the application" />
-        </div> */}
+        <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
+          {/* <img src={image} alt="Laptop displaying the application" /> */}
+         
+        </div>
       </div>
       <Modal
         isOpen={showModal}

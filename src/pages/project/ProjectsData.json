@@ -1,12 +1,57 @@
 [
   {
+    "title": "Saflypourmoi",
+    "description": "This blogging web application made an influancer and traverler",
+    "image": "src",
+    "tags": ["Sanity", "Nextjs","Tailwindcss", "Brevo", "nodemailer"],
+    "deployed": "https://saflypourmoi.com/",
+    "bgcolor": "#73293D",
+    "id": "1"
+  },
+  {
+    "title": "MoroccanAdvisor",
+    "description": "This web application made for tourism around morocco",
+    "image": "src",
+    "tags": ["Nextjs", "Tailwindcss", "Brevo", "gumroad"],
+    "deployed": "https://www.moroccanadvisor.com/",
+    "bgcolor": "#3A7A57",
+    "id": "2"
+  },
+  {
+    "title": "Wavea",
+    "description": "This website made for digital agency",
+    "image": "src",
+    "tags": ["Nextjs", "Tailwindcss"],
+    "deployed": "https://www.wavea.eu/",
+    "bgcolor": "#4C8DBC",
+    "id": "2"
+  },
+  {
+    "title": "LisbonCoaches",
+    "description": "This web application made for a community of coaches around lisbon",
+    "image": "src",
+    "tags": ["Firebase", "Nextjs", "Tailwindcss"],
+    "deployed": "https://www.lisboncoaches.com/",
+    "bgcolor": "#2D2761",
+    "id": "4"
+  },
+  {
+    "title": "IvanMoreira",
+    "description": "This web application made for a coach and mentor",
+    "image": "src",
+    "tags": ["Sanity", "React", "Mailchimp"],
+    "deployed": "https://www.ivanmoreira.org/",
+    "bgcolor": "#8807E6",
+    "id": "5"
+  },
+  {
     "title": "Financebdarija",
     "description": "This web application made for a financial advisor to host his podcasts",
     "image": "src",
     "tags": ["Firebase", "React", "ExpressJS", "NodeJS", "MongoDB"],
     "deployed": "https://financebdarija.netlify.app/",
     "bgcolor": "#3e67ff",
-    "id": "1"
+    "id": "6"
   },
 
   {
@@ -16,7 +61,7 @@
     "tags": ["Typescript", "React", "Vitejs"],
     "deployed": "https://next-digits.vercel.app",
     "bgcolor": "#0E2041",
-    "id": "2"
+    "id": "7"
   },
   {
     "title": "Travel",
@@ -25,7 +70,7 @@
     "tags": ["Javascript", "Nextjs", "Tailwindcss"],
     "deployed": "https://thunderous-paletas-c61edc.netlify.app/",
     "bgcolor": "#3B3C32",
-    "id": "3"
+    "id": "8"
   },
   {
     "title": "EZ Game",
@@ -34,7 +79,7 @@
     "tags": ["Javascript", "HTML", "CSS"],
     "deployed": "https://ezproject.netlify.app",
     "bgcolor": "#67AFB7",
-    "id": "4"
+    "id": "9"
   },
   {
     "title": "Token-Titans",
@@ -43,7 +88,7 @@
     "tags": ["Typescript", "Nextjs", "Tailwindcss"],
     "deployed": "https://token-titans.vercel.app/",
     "bgcolor": "#67AFB7",
-    "id": "5"
+    "id": "10"
   },
   {
     "title": "Smile coach",
@@ -52,7 +97,7 @@
     "tags": ["HTML", "CSS", "Nextjs"],
     "deployed": "https://coach-smile.vercel.app/",
     "bgcolor": "#FFCC33",
-    "id": "6"
+    "id": "11"
   },
   {
     "title": "Aloe",
@@ -61,7 +106,7 @@
     "tags": ["HTML", "CSS", "Javascript"],
     "deployed": "https://aloe-three.vercel.app/",
     "bgcolor": "#889B73",
-    "id": "7"
+    "id": "12"
   },
   {
     "title": "Tiktaklink",
@@ -70,7 +115,7 @@
     "tags": ["HTML", "CSS", "Javascript"],
     "deployed": "https://tiktalink.netlify.app/",
     "bgcolor": "#9f3eff",
-    "id": "8"
+    "id": "13"
   },
   {
     "title": "RickAndMorty",
@@ -79,6 +124,6 @@
     "tags": ["HTML", "CSS", "Javascript"],
     "deployed": "https://rick-and-morty-five-rho.vercel.app/",
     "bgcolor": "#499448",
-    "id": "9"
+    "id": "14"
   }
 ]
